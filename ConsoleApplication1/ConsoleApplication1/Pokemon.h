@@ -8,13 +8,14 @@ class Pokemon
 private :
 	string name;
 	string description;
-	/*PokeType*/ string type;
+	PokeType type;
 	int level;
 	int healthpoints;
 	string abilities[4];
 
 public:
-	Pokemon(string pName, string type, int level);
+	Pokemon();
+	Pokemon(string pName, int type, int level);
 	void SetPokemonStats();
 	void Pokedex();
 	void OutPokeball();

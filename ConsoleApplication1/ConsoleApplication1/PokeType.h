@@ -21,7 +21,5 @@ enum class PokeType
 	Dragon,
 	Dark,
 	Steel,
-
-
+	Fairy
 };
-

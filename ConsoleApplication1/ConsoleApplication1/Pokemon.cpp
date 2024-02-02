@@ -1,11 +1,19 @@
 #include "Pokemon.h"
+#include <map>
 using namespace std;
 
-Pokemon::Pokemon(string pName, string pType, int pLevel)
+Pokemon::Pokemon(string pName, int pType, int pLevel)
 {
 	name = pName;
 	level = pLevel;
-	type = pType;
+	for (int i = 0; i < 18; i++)
+	{
+		if (pType == i)
+		{
+			type = PokeType(i);
+		}
+	}
+	
 }
 
 void Pokemon::SetPokemonStats()
@@ -22,7 +30,7 @@ void Pokemon::SetPokemonStats()
 
 void Pokemon::Pokedex()
 {
-	description = name + "\n" + type + "\n";
+	description = name + "\n";
 	cout << description << endl << level;
 	
 }
