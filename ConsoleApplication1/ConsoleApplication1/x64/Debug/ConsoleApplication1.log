@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Pokemon.cpp
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  PokeType.cpp
+  Generating Code...
+  ConsoleApplication1.vcxproj -> C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
