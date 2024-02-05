@@ -1,13 +1,17 @@
 #pragma once
 #pragma once
+#include <string>
 #include<iostream>
 #include"Pokemon.h";
+#include <cstdlib>
+#include <cstring>
+#include <fstream>
 #include<vector>;
 using namespace std;
 
 class Trainer
 {
-public :
+private :
 
 	string firstName;
 	string lastName;
@@ -15,10 +19,16 @@ public :
 	int money;
 	int lifePoints;
 	vector<Pokemon> teams;
+	int pokeballs;
 
-private :
+public :
 
-
+	Trainer();
+	void Introduction();
+	void ChallengeTrainer(Trainer trainer);
+	void CapturePokemon(Pokemon wildPokemon);
+	void SwitchPokemon();
+	void AttackWithPokemon();
 
 };
 

@@ -6,6 +6,7 @@ Pokemon::Pokemon(string pName, int pType, int pLevel)
 {
 	name = pName;
 	level = pLevel;
+
 	for (int i = 0; i < 18; i++)
 	{
 		if (pType == i)
@@ -30,7 +31,7 @@ void Pokemon::SetPokemonStats()
 
 void Pokemon::Pokedex()
 {
-	description = name + "\n";
+	description = name;
 	cout << description << endl << level;
 	
 }

@@ -1,6 +1,11 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+﻿  Trainer.cpp
+C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(5,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  (compiler le fichier source 'Trainer.cpp')
+  
 C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(3,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-  (compiler le fichier source 'ConsoleApplication1.cpp')
+  (compiler le fichier source 'Trainer.cpp')
+  
+C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(9,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  (compiler le fichier source 'Trainer.cpp')
   
   ConsoleApplication1.vcxproj -> C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
