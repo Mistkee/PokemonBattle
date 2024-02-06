@@ -1,11 +1,6 @@
 #pragma once
-#pragma once
-#include <string>
 #include<iostream>
 #include"Pokemon.h";
-#include <cstdlib>
-#include <cstring>
-#include <fstream>
 #include<vector>;
 using namespace std;
 

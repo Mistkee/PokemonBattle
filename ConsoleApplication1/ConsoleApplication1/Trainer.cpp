@@ -1,9 +1,5 @@
 #include "Trainer.h"
 #include "Pokemon.h"
-#include <iostream>
-#include <cstdlib>
-#include <cstring>
-#include <fstream>
 #include <string>
 
 using namespace std;
@@ -12,7 +8,6 @@ using namespace std;
 Trainer :: Trainer()
 {
 	int nbPokemon;
-	
 
 	cout << "What's your first name ?"<<endl;
 	cin >> firstName;
@@ -33,17 +28,20 @@ Trainer :: Trainer()
 	cout << "Okay time to talk about the most important things, first how many Pokemon do you have ?" << endl;
 	cin >> nbPokemon;
 
-	for (int i; i < nbPokemon; i++)
+	for (int i = 0; i < nbPokemon; i++)
 	{
-		cout << "Please enter the information for Pokemon " << i;
-		cout << "What's name ?" << endl;
-		cin >> pName;
-		
+		Pokemon pokemon = Pokemon();
+		teams.push_back(pokemon);
 	}
-	Pokemon pokemon = Pokemon(pName, pType, pLevel);
+	
+	cout << "We're all set ! Time to begin your advendure !" << endl;
 }
 
 void Trainer::Introduction()
 {
 	cout << endl << "Hey ! The name is " << firstName << " " << lastName << " !" << endl << catchPhrase << endl << "Anyway, if you want to challenge me let's get started !" << endl;
+	for (int i= 0; i < teams.size(); i++)
+	{
+		teams[i].Pokedex();
+	}
 }

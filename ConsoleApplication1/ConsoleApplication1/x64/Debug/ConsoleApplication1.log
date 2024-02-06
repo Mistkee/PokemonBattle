@@ -1,11 +1,7 @@
-﻿  Trainer.cpp
-C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(5,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-  (compiler le fichier source 'Trainer.cpp')
-  
-C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(3,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-  (compiler le fichier source 'Trainer.cpp')
-  
-C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(9,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-  (compiler le fichier source 'Trainer.cpp')
-  
-  ConsoleApplication1.vcxproj -> C:\Users\Matt\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+﻿  Abilities.cpp
+  Trainer.cpp
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(5,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(9,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  ConsoleApplication1.vcxproj -> C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
