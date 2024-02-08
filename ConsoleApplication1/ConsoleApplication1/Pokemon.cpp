@@ -1,6 +1,5 @@
 #include "Pokemon.h"
 #include <sstream>
-#include <map>
 using namespace std;
 
 Pokemon::Pokemon()
@@ -23,23 +22,24 @@ Pokemon::Pokemon()
 	cin >> level;
 
 	description = "Pokemon name: " + name + "\n" + "Lvl: " + to_string(level);
+
+	SetPokemonStats(type);
 }
 
-void Pokemon::SetPokemonStats()
+void Pokemon::SetPokemonStats(PokeType abilityType)
 {
-
-	/*for (int i; i < 18 ; i++ )
-	{
-		if (type == (PokeType)i)
-		{
-			description = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH";
-		}
-	}*/
+	Abilities abilities = Abilities();
+	
+	abilitiesSet.push_back(abilities.ChooseAbilities(type));
 }
 
 void Pokemon::Pokedex()
 {
 	
 	cout << description << endl;
+	for (int i = 0; i < abilitiesSet.size(); i++)
+	{
+		abilitiesSet[i].DisplayName(abilitiesSet[i]);
+	}
 	
 }

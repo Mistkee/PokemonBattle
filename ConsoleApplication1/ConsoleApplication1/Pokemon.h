@@ -1,6 +1,8 @@
 #pragma once
 #include<iostream>
-#include"PokeType.h";
+#include<vector>
+#include"Abilities.h";
+#include "PokeType.h"
 using namespace std;
 
 class Pokemon
@@ -11,12 +13,12 @@ private :
 	PokeType type;
 	int level;
 	int healthpoints;
-	string abilities[4];
+	vector<Abilities> abilitiesSet;
 
 public:
 	Pokemon();
 	Pokemon(string pName, int type, int level);
-	void SetPokemonStats();
+	void SetPokemonStats(PokeType abilityType);
 	void Pokedex();
 	void OutPokeball();
 	void InPokeball();

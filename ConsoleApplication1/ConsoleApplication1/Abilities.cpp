@@ -1,7 +1,7 @@
 #include "Abilities.h"
 
 
-void Abilities::ChooseAbilities(PokeType pkmType, Pokemon pkm)
+Abilities Abilities::ChooseAbilities(PokeType pkmType)
 {
 	
 	vector<Abilities> normalAbilities = {Abilities("Feint", 30, PokeType::Normal, 10), Abilities("Quick Attack", 40, PokeType::Normal, 30), Abilities("Headbutt", 70, PokeType::Normal, 15) };
@@ -22,49 +22,91 @@ void Abilities::ChooseAbilities(PokeType pkmType, Pokemon pkm)
 	vector<Abilities> darkAbilities = { Abilities("Pursuit", 40, PokeType::Dark, 20), Abilities("Power Trip", 20, PokeType::Dark, 10), Abilities("Knock Off", 65, PokeType::Dark, 20) };
 	vector<Abilities> steelAbilities = { Abilities("Bullet Punch", 40, PokeType::Steel, 30), Abilities("Tachyon Cutter", 50, PokeType::Steel, 10), Abilities("Metal Claw", 50, PokeType::Steel, 35) };
 	vector<Abilities> fairyAbilities = { Abilities("Disarming Voice", 40, PokeType::Fairy, 15), Abilities("Fairy Wind", 40, PokeType::Fairy, 15), Abilities("Draining Kiss", 50, PokeType::Fairy, 10) };
-
+	int random = rand() % normalAbilities.size();
 
 	switch (pkmType)
 	{
 	case (PokeType::Normal):
 		
+		return(normalAbilities[random]);
+		break;
 	case (PokeType::Fire) :
-
+	
+		return(fireAbilities[random]);
+		break;
 	case (PokeType::Water) :
 
+		return(waterAbilities[random]);
+		break;
 	case (PokeType::Grass) :
-
+		
+		return(grassAbilities[random]);
+		break;
 	case (PokeType::Electric) :
-
+		
+		return(electricAbilities[random]);
+		break;
 	case (PokeType::Ice) :
-
+		
+		return(iceAbilities[random]);
+		break;
 	case (PokeType::Fighting) :
-
+		
+		return(fightingAbilities[random]);
+		break;
 	case (PokeType::Poison) :
-
+		
+		return(poisonAbilities[random]);
+		break;
 	case (PokeType::Ground):
-
+		
+		return(groundAbilities[random]);
+		break;
 	case (PokeType :: Flying) :
-
+		
+		return(flyingAbilities[random]);
+		break;
 	case (PokeType::Psychic):
-
+		
+		return(psychicAbilities[random]);
+		break;
 	case (PokeType::Bug):
-
+		
+		return(bugAbilities[random]);
+		break;
 	case (PokeType::Rock):
-
+		
+		return(rockAbilities[random]);
+		break;
 	case (PokeType::Ghost):
-
+		
+		return(ghostAbilities[random]);
+		break;
 	case (PokeType::Dragon):
-
+		
+		return(dragonAbilities[random]);
+		break;
 	case (PokeType::Dark):
-
+		
+		return(darkAbilities[random]);
+		break;
 	case (PokeType::Steel):
-
+		
+		return(steelAbilities[random]);
+		break;
 	case (PokeType::Fairy):
-
+		
+		return(fairyAbilities[random]);
+		break;
 
 	default:
 		break;
 	}
 	
+}
+
+void Abilities::DisplayName(Abilities ability)
+{
+	cout << ability.aName;
+
 }
