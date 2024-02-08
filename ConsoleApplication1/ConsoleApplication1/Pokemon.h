@@ -18,6 +18,7 @@ private :
 public:
 	Pokemon();
 	Pokemon(string pName, int type, int level);
+	Pokemon(string pName, PokeType type, int hp, vector<Abilities> movesSet);
 	void SetPokemonStats(PokeType ability);
 	void Pokedex();
 	void OutPokeball();

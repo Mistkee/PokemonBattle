@@ -19,6 +19,7 @@ private :
 public :
 
 	Trainer();
+	Trainer(string fName, string lName, string cPhrase, vector<Pokemon> teams);
 	void Introduction();
 	void ChallengeTrainer(Trainer trainer);
 	void CapturePokemon(Pokemon wildPokemon);
