@@ -12,6 +12,7 @@ private :
 	PokeType aType;
 	int nbUse;
 
+
 public :
 
 	Abilities() : aName(""), dmgAmount(0), aType(PokeType::Normal), nbUse(0){}

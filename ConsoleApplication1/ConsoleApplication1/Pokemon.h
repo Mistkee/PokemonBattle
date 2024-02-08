@@ -18,7 +18,7 @@ private :
 public:
 	Pokemon();
 	Pokemon(string pName, int type, int level);
-	void SetPokemonStats(PokeType abilityType);
+	void SetPokemonStats(PokeType ability);
 	void Pokedex();
 	void OutPokeball();
 	void InPokeball();

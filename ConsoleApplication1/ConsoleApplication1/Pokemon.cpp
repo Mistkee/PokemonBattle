@@ -1,5 +1,6 @@
 #include "Pokemon.h"
 #include <sstream>
+#include <map>
 using namespace std;
 
 Pokemon::Pokemon()

@@ -1,4 +1,10 @@
-﻿  Abilities.cpp
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Abilities.cpp(106): warning C4715: 'Abilities::ChooseAbilities': not all control paths return a value
-Abilities.obj : error LNK2019: unresolved external symbol "public: __cdecl Abilities::Abilities(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,enum PokeType,int)" (??0Abilities@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HW4PokeType@@H@Z) referenced in function "public: class Abilities __cdecl Abilities::ChooseAbilities(enum PokeType)" (?ChooseAbilities@Abilities@@QEAA?AV1@W4PokeType@@@Z)
+﻿  ConsoleApplication1.cpp
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Pokemon.cpp
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+Abilities.obj : error LNK2019: unresolved external symbol "public: __cdecl Abilities::Abilities(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,enum PokeType,int)" (??0Abilities@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HW4PokeType@@H@Z) referenced in function "public: class Abilities * __cdecl Abilities::ChooseAbilities(enum PokeType)" (?ChooseAbilities@Abilities@@QEAAPEAV1@W4PokeType@@@Z)
 C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 1 unresolved externals
