@@ -19,6 +19,7 @@ public:
 	Pokemon();
 	Pokemon(string pName, int type, int level);
 	Pokemon(string pName, PokeType type, int hp, vector<Abilities> movesSet);
+	Abilities ChooseAbilities(PokeType pkmType);
 	void SetPokemonStats(PokeType ability);
 	void Pokedex();
 	void OutPokeball();
@@ -27,5 +28,6 @@ public:
 	void TakeDamage();
 	void Rest();
 	void Faint();
+	
 };
 

@@ -17,7 +17,7 @@ public :
 
 	Abilities() : aName(""), dmgAmount(0), aType(PokeType::Normal), nbUse(0){}
 	Abilities(const string& aName, int dmgAmount, PokeType aType, int nbUse) ;
-	Abilities ChooseAbilities(PokeType pkmType);
+	
 	void DisplayName(Abilities ability);
 
 };

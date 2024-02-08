@@ -26,46 +26,46 @@ int main()
 
 }
 
-void Adventure(Trainer& mainCharacter)
-{
-    cout << "You decided to explore the world with your companion(s), what will be your next stop ? \n 0 : The quiet forest \n 1 : The mountain trail \n 2 : The noisy attraction park \n";
-    int path;
-    cin >> path;
-    switch (path)
-    {
-    case(0):
-        Forest(mainCharacter);
-        break;
-    case(1):
-        Mountain(mainCharacter);
-        break;
-    case(2):
-        AttractionPark(mainCharacter);
-
-    default:
-        break;
-    }
-
-}
-
-void Forest(Trainer& mainCharacter)
-{   
-    vector<Pokemon>fabriceTeam = { Pokemon("Luvdisc", PokeType::Water, 60, (vector<Abilities> {Abilities("Bubble",40, PokeType :: Water, 30), Abilities("Clamp", 35, PokeType::Water, 15)}))};
-    Trainer fabrice = Trainer("Fabrice", "Laglisse", "Hum, I think I'm lost",fabriceTeam);
-    Battle(fabrice, fabrice);
-}
-
-void Mountain(Trainer& mainCharacter)
-{
-
-}
-
-void AttractionPark(Trainer& mainCharacter)
-{
-
-}
-
-void Battle(Trainer& character, Trainer& challenger)
-{
-
-}
+//void Adventure(Trainer& mainCharacter)
+//{
+//    cout << "You decided to explore the world with your companion(s), what will be your next stop ? \n 0 : The quiet forest \n 1 : The mountain trail \n 2 : The noisy attraction park \n";
+//    int path;
+//    cin >> path;
+//    switch (path)
+//    {
+//    case(0):
+//        //Forest(mainCharacter);
+//        break;
+//    case(1):
+//        //Mountain(mainCharacter);
+//        break;
+//    case(2):
+//        //AttractionPark(mainCharacter);
+//
+//    default:
+//        break;
+//    }
+//
+//}
+//
+//void Forest(Trainer& mainCharacter)
+//{   
+//    vector<Pokemon>fabriceTeam = { Pokemon("Luvdisc", PokeType::Water, 60, (vector<Abilities> {Abilities("Bubble",40, PokeType :: Water, 30), Abilities("Clamp", 35, PokeType::Water, 15)}))};
+//    Trainer fabrice = Trainer("Fabrice", "Laglisse", "Hum, I think I'm lost",fabriceTeam);
+//    //Battle(fabrice, fabrice);
+//}
+//
+//void Mountain(Trainer& mainCharacter)
+//{
+//
+//}
+//
+//void AttractionPark(Trainer& mainCharacter)
+//{
+//
+//}
+//
+//void Battle(Trainer& character, Trainer& challenger)
+//{
+//
+//}
