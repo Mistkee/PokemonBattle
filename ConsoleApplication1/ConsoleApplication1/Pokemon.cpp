@@ -36,6 +36,7 @@ void Pokemon::Pokedex()
 {
 	
 	cout << description << endl;
+	cout << abilitiesSet.size();
 	for (int i = 0; i < abilitiesSet.size(); i++)
 	{
 		abilitiesSet[i].DisplayName(abilitiesSet[i]);

@@ -1,4 +1,4 @@
 ﻿  Pokemon.cpp
 C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.cpp(147): warning C4715: 'Pokemon::ChooseAbilities': not all control paths return a value
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.cpp(148): warning C4715: 'Pokemon::ChooseAbilities': not all control paths return a value
   ConsoleApplication1.vcxproj -> C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
