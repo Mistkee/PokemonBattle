@@ -9,12 +9,11 @@ class Battle
 
 private:
 
-	Trainer& mainCharacter;
+
 
 public:
 
 	Battle();
-	Battle(Trainer& maincharacter);
 	void Adventure(Trainer& mainCharacter);
-	void ChallengeTrainer(Trainer& mainCharacter);
+
 };

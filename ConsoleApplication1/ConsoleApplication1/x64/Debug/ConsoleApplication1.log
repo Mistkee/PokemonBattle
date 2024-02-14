@@ -1,17 +1,4 @@
-﻿  Battle.cpp
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Battle.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+﻿  Pokemon.cpp
 C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Battle.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  ConsoleApplication1.cpp
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Battle.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Battle.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Generating Code...
-Battle.obj : error LNK2019: unresolved external symbol "public: __cdecl Pokemon::Pokemon(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum PokeType,int,class std::vector<class Abilities,class std::allocator<class Abilities> >)" (??0Pokemon@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4PokeType@@HV?$vector@VAbilities@@V?$allocator@VAbilities@@@std@@@2@@Z) referenced in function "public: void __cdecl Battle::ChallengeTrainer(class Trainer &)" (?ChallengeTrainer@Battle@@QEAAXAEAVTrainer@@@Z)
-Battle.obj : error LNK2019: unresolved external symbol "public: __cdecl Trainer::Trainer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::vector<class Pokemon,class std::allocator<class Pokemon> >)" (??0Trainer@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00V?$vector@VPokemon@@V?$allocator@VPokemon@@@std@@@2@@Z) referenced in function "public: void __cdecl Battle::ChallengeTrainer(class Trainer &)" (?ChallengeTrainer@Battle@@QEAAXAEAVTrainer@@@Z)
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 2 unresolved externals
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.cpp(149): warning C4715: 'Pokemon::ChooseAbilities': not all control paths return a value
+  ConsoleApplication1.vcxproj -> C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

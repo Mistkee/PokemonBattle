@@ -18,13 +18,16 @@ Pokemon::Pokemon()
 			type = PokeType(i);
 		}
 	}
+	SetPokemonStats(type);
 
 	cout << "How many levels does it has ?" << endl;
 	cin >> level;
+	healthpoints = level * 3;
 
-	description = "Pokemon name: " + name + "\n" + "Lvl: " + to_string(level);
+	
+	description = "Pokemon name: " + name + "\n" + "Lvl: " + to_string(level) + "\n" + "HP: " + to_string(healthpoints);
 
-	SetPokemonStats(type);
+	
 }
 
 void Pokemon::SetPokemonStats(PokeType abilityType)
@@ -35,7 +38,6 @@ void Pokemon::SetPokemonStats(PokeType abilityType)
 void Pokemon::Pokedex()
 {
 	cout << description << endl;
-	cout << abilitiesSet.size();
 	for (int i = 0; i < abilitiesSet.size(); i++)
 	{
 		cout << abilitiesSet[i].DisplayName();

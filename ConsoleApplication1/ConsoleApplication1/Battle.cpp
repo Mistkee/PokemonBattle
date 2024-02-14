@@ -1,6 +1,6 @@
 #include "Battle.h"
 
-Battle::Battle(Trainer& maincharacter) : mainCharacter( maincharacter)
+Battle::Battle()
 {
 }
 
@@ -12,7 +12,7 @@ void Battle::Adventure(Trainer& mainCharacter)
     switch (choice)
     {
     case(0):
-        ChallengeTrainer(mainCharacter);
+        cout << "You challenge a trainer.";
         break;
     case(1):
         
@@ -26,8 +26,3 @@ void Battle::Adventure(Trainer& mainCharacter)
 
 }
 
-void Battle::ChallengeTrainer(Trainer& mainCharacter)
-{
-    vector<Pokemon>fabriceTeam = { Pokemon("Luvdisc", PokeType::Water, 60, (vector<Abilities> {Abilities("Bubble",40, PokeType::Water, 30), Abilities("Clamp", 35, PokeType::Water, 15)})) };
-    Trainer fabrice = Trainer("Fabrice", "Laglisse", "Hum, I think I'm lost",fabriceTeam);
-}

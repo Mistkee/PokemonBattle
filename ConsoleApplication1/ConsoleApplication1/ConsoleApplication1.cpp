@@ -7,6 +7,8 @@ int main()
 {
     Trainer mainCharacter = Trainer();
     mainCharacter.Introduction();
+    Battle battle = Battle();
+    battle.Adventure(mainCharacter);
 }
 
 
