@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Abilities.cpp" />
+    <ClCompile Include="Battle.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="Pokemon.cpp" />
     <ClCompile Include="PokeType.cpp" />
@@ -135,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Abilities.h" />
+    <ClInclude Include="Battle.h" />
     <ClInclude Include="Pokemon.h" />
     <ClInclude Include="PokeType.h" />
     <ClInclude Include="Trainer.h" />

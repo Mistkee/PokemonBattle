@@ -34,12 +34,11 @@ void Pokemon::SetPokemonStats(PokeType abilityType)
 
 void Pokemon::Pokedex()
 {
-	
 	cout << description << endl;
 	cout << abilitiesSet.size();
 	for (int i = 0; i < abilitiesSet.size(); i++)
 	{
-		abilitiesSet[i].DisplayName(abilitiesSet[i]);
+		cout << abilitiesSet[i].DisplayName();
 	}
 	
 }
@@ -85,7 +84,7 @@ Abilities Pokemon::ChooseAbilities(PokeType pkmType)
 		return(grassAbilities[random]);
 		break;
 	case (PokeType::Electric):
-
+		
 		return(electricAbilities[random]);
 		break;
 	case (PokeType::Ice):

@@ -1,5 +1,4 @@
 #include "Trainer.h"
-#include "Pokemon.h"
 #include <string>
 
 using namespace std;
