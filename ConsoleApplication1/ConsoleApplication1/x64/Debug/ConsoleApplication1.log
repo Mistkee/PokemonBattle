@@ -1,8 +1,8 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+﻿  Battle.cpp
 C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Battle.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Pokemon.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Trainer.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(8,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Battle.cpp(37,17): warning C4101: 'choosingActions': unreferenced local variable
+C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\ConsoleApplication1\Battle.cpp(37,10): warning C4101: 'start': unreferenced local variable
   ConsoleApplication1.vcxproj -> C:\Users\matteo.liegeois\Documents\GitHub\PokemonBattle\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

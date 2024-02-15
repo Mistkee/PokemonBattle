@@ -34,9 +34,11 @@ void Battle::Adventure()
 
 void Battle::BattleTrainer()
 {
+    bool start, choosingActions;
     int choice;
     Pokemon chosenPkmn;
 
+    
     vector<Pokemon>fabriceTeam = { Pokemon("Luvdisc", PokeType::Water, 25, (vector<Abilities> {Abilities("Bubble",40, PokeType::Water, 30), Abilities("Clamp", 35, PokeType::Water, 15)})) };
     Trainer fabrice = Trainer("Fabrice", "Laglisse", "Hum, I think I'm lost",fabriceTeam);
     cout << "You decided to challenge a Trainer " << endl;
@@ -53,20 +55,42 @@ void Battle::BattleTrainer()
     }
     cin >> choice;
     chosenPkmn = thePlayer.Team()[choice];
-
-  
     cout << "You chose : ";
     thePlayer.GetPokemonInTeam(choice);
     cout << endl;
 
+    cout << "What are you going to do ?  \n 0 : Attack \n 1 : Switch \n 2 : Pokeball \n 3 : Run Away \n";
+    cin >> choice;
     switch (choice)
     {
     case(0):
-        
+        chosenPkmn.DisplayMoves();
+        break;
+
+    case(1):
+        cout << "Who do you want to choose ?" << endl;
+
+        for (int i = 0; i < thePlayer.Team().size(); i++)
+        {
+            cout << i << " : ";
+            thePlayer.GetPokemonInTeam(i);
+            cout << endl;
+        }
+        cin >> choice;
+        chosenPkmn = thePlayer.Team()[choice];
+        break;
+
+    case(2):
+
+        break;
+
+    case(3):
+        break;
+
     default:
         break;
     }
-
+   
 
 }
 
