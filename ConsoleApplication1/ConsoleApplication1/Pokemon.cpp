@@ -30,9 +30,38 @@ Pokemon::Pokemon()
 	
 }
 
+Pokemon::Pokemon(string pName, int pType, int level)
+{
+	
+}
+
+Pokemon::Pokemon(string pName, PokeType pType, int hp, vector<Abilities> movesSet)
+{
+	name = pName;
+	type = pType;
+	healthpoints = hp;
+	abilitiesSet = movesSet;
+}
+
 void Pokemon::SetPokemonStats(PokeType abilityType)
 {
 	abilitiesSet.push_back(ChooseAbilities(type));
+}
+
+string Pokemon::PokeName()
+{
+	return name;
+}
+
+void Pokemon::DisplayMoves()
+{
+	for (int i = 0; i < abilitiesSet.size(); i++)
+	{
+		cout << i << " : ";
+		abilitiesSet[i].DisplayName();
+		cout << endl;
+		
+	}
 }
 
 void Pokemon::Pokedex()

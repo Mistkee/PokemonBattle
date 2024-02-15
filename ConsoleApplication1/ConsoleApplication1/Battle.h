@@ -1,19 +1,21 @@
 #pragma once
 #include<iostream>
 #include"Trainer.h";
-#include<vector>;
 using namespace std;
+
 
 class Battle
 {
 
 private:
-
+	Trainer thePlayer;
 
 
 public:
 
 	Battle();
-	void Adventure(Trainer& mainCharacter);
+	Battle(Trainer mainCharacter);
+	void Adventure();
+	void BattleTrainer();
 
 };

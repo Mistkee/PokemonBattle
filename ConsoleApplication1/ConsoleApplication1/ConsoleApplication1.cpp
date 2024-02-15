@@ -7,9 +7,8 @@ int main()
 {
     srand(time(NULL));
     Trainer mainCharacter = Trainer();
-    mainCharacter.Introduction();
-    Battle battle = Battle();
-    battle.Adventure(mainCharacter);
+    Battle battle = Battle(mainCharacter);
+    battle.Adventure();
 }
 
 

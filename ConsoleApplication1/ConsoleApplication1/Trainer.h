@@ -19,11 +19,15 @@ private :
 public :
 
 	Trainer();
-	Trainer(string fName, string lName, string cPhrase, vector<Pokemon> teams);
+	Trainer(string fName, string lName, string cPhrase, vector<Pokemon> tTeams);
+	void TeamIntroduction();
 	void Introduction();
-	void CapturePokemon(Pokemon wildPokemon);
-	void SwitchPokemon();
-	void AttackWithPokemon();
+	void GetPokemonInTeam(int pokemons);
+	vector <Pokemon> Team();
+	void ThrowPokemon(int pokemons);
+	//void CapturePokemon(Pokemon wildPokemon);
+	//void SwitchPokemon();
+	//void AttackWithPokemon();
 
 };
 

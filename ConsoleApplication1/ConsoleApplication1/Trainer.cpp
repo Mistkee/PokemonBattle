@@ -33,14 +33,43 @@ Trainer :: Trainer()
 		teams.push_back(pokemon);
 	}
 	
+	cout << endl << "Hey ! The name is " << firstName << " " << lastName << " !" << endl << catchPhrase << endl << "Anyway, if you want to challenge me let's get started !" << endl;
 	cout << "We're all set ! Time to begin your advendure !" << endl;
+}
+
+Trainer::Trainer(string fName, string lName, string cPhrase, vector<Pokemon> tTeams)
+{
+	firstName = fName;
+	lastName = lName;
+	catchPhrase = cPhrase;
+	teams = tTeams;
+}
+
+void Trainer::TeamIntroduction()
+{
+	
+	for (int i= 0; i < teams.size(); i++)
+	{
+		teams[i].Pokedex();	
+	}
 }
 
 void Trainer::Introduction()
 {
 	cout << endl << "Hey ! The name is " << firstName << " " << lastName << " !" << endl << catchPhrase << endl << "Anyway, if you want to challenge me let's get started !" << endl;
-	for (int i= 0; i < teams.size(); i++)
-	{
-		teams[i].Pokedex();	
-	}
+}
+
+void Trainer::GetPokemonInTeam(int pokemons)
+{
+	cout << teams[pokemons].PokeName();
+}
+
+vector <Pokemon> Trainer::Team()
+{
+	return teams;
+}
+
+void Trainer::ThrowPokemon(int pokemons)
+{
+	teams[pokemons].DisplayMoves();
 }

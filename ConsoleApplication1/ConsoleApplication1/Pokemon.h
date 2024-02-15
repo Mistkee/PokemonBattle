@@ -18,16 +18,17 @@ private :
 public:
 	Pokemon();
 	Pokemon(string pName, int type, int level);
-	Pokemon(string pName, PokeType type, int hp, vector<Abilities> movesSet);
+	Pokemon(string pName, PokeType pType, int hp, vector<Abilities> movesSet);
 	Abilities ChooseAbilities(PokeType pkmType);
 	void SetPokemonStats(PokeType ability);
 	void Pokedex();
-	void OutPokeball();
-	void InPokeball();
-	void Attack();
-	void TakeDamage();
-	void Rest();
-	void Faint();
+	string PokeName();
+	void DisplayMoves();
+	//void InPokeball();
+	//void Attack();
+	//void TakeDamage();
+	//void Rest();
+	//void Faint();
 	
 };
 
