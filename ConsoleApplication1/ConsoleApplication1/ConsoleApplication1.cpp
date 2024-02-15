@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    srand(time(NULL));
     Trainer mainCharacter = Trainer();
     mainCharacter.Introduction();
     Battle battle = Battle();

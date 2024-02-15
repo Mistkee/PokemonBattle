@@ -41,6 +41,6 @@ void Trainer::Introduction()
 	cout << endl << "Hey ! The name is " << firstName << " " << lastName << " !" << endl << catchPhrase << endl << "Anyway, if you want to challenge me let's get started !" << endl;
 	for (int i= 0; i < teams.size(); i++)
 	{
-		teams[i].Pokedex();
+		teams[i].Pokedex();	
 	}
 }

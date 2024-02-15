@@ -1,13 +1,16 @@
 #include "Abilities.h"
 
 
-Abilities::Abilities(string aName, int dmgAmount, PokeType aType, int nbUse)
+Abilities::Abilities(string name, int dmg, PokeType type, int use)
 {
-
+	aName = name;
+	dmgAmount = dmg;
+	aType = type;
+	nbUse = use;
 }
 
 void Abilities::DisplayName()
 {
-	cout << aName << endl << endl;
+	cout << aName << endl ;
 
 }

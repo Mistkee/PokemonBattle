@@ -16,7 +16,7 @@ private :
 public :
 
 	Abilities() : aName(""), dmgAmount(0), aType(PokeType::Normal), nbUse(0){}
-	Abilities(string aName, int dmgAmount, PokeType aType, int nbUse) ;
+	Abilities(string name, int dmg, PokeType type, int use) ;
 	void DisplayName();
 
 };

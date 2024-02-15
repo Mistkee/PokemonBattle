@@ -86,8 +86,8 @@ Abilities Pokemon::ChooseAbilities(PokeType pkmType)
 		return(grassAbilities[random]);
 		break;
 	case (PokeType::Electric):
-		return(Abilities("Thunder Shock", 40, PokeType::Electric, 30));
-		//return(electricAbilities[random]);
+		
+		return(electricAbilities[random]);
 		break;
 	case (PokeType::Ice):
 
