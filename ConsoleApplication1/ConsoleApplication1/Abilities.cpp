@@ -6,8 +6,8 @@ Abilities::Abilities(string aName, int dmgAmount, PokeType aType, int nbUse)
 
 }
 
-string Abilities::DisplayName()
+void Abilities::DisplayName()
 {
-	return aName;
+	cout << aName << endl << endl;
 
 }

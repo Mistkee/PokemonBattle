@@ -40,7 +40,7 @@ void Pokemon::Pokedex()
 	cout << description << endl;
 	for (int i = 0; i < abilitiesSet.size(); i++)
 	{
-		cout << abilitiesSet[i].DisplayName();
+		abilitiesSet[i].DisplayName();
 	}
 	
 }
@@ -86,8 +86,8 @@ Abilities Pokemon::ChooseAbilities(PokeType pkmType)
 		return(grassAbilities[random]);
 		break;
 	case (PokeType::Electric):
-		
-		return(electricAbilities[random]);
+		return(Abilities("Thunder Shock", 40, PokeType::Electric, 30));
+		//return(electricAbilities[random]);
 		break;
 	case (PokeType::Ice):
 
